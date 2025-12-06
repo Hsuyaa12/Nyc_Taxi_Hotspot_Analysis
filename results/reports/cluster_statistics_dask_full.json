@@ -1,0 +1,150 @@
+{
+  "method": "Dask + MiniBatch K-Means (100% data, no sampling)",
+  "k": 20,
+  "total_rows_processed": 81182260,
+  "sampling": "None - Full dataset used",
+  "silhouette_score": 0.7099719908602505,
+  "inertia": 33.48342618877945,
+  "clusters": [
+    {
+      "cluster": 0,
+      "trip_count": 13618828,
+      "center_lat": 40.75872863225878,
+      "center_lon": -73.98518047375788,
+      "avg_fare": 11.188681251914385
+    },
+    {
+      "cluster": 12,
+      "trip_count": 10396732,
+      "center_lat": 40.75694917286462,
+      "center_lon": -73.9904324369405,
+      "avg_fare": 10.935854046986096
+    },
+    {
+      "cluster": 19,
+      "trip_count": 10365305,
+      "center_lat": 40.756567538410835,
+      "center_lon": -73.98246718272685,
+      "avg_fare": 11.827072519627567
+    },
+    {
+      "cluster": 8,
+      "trip_count": 6008393,
+      "center_lat": 40.767901750139984,
+      "center_lon": -73.98779218631796,
+      "avg_fare": 10.835534302505963
+    },
+    {
+      "cluster": 17,
+      "trip_count": 4898200,
+      "center_lat": 40.7624326574974,
+      "center_lon": -73.98331290080361,
+      "avg_fare": 11.009401501300554
+    },
+    {
+      "cluster": 10,
+      "trip_count": 4735917,
+      "center_lat": 40.767874503526556,
+      "center_lon": -73.99281569506282,
+      "avg_fare": 12.094023835545377
+    },
+    {
+      "cluster": 9,
+      "trip_count": 4715604,
+      "center_lat": 40.76259605412373,
+      "center_lon": -73.97115217723703,
+      "avg_fare": 11.074647348771126
+    },
+    {
+      "cluster": 7,
+      "trip_count": 3849079,
+      "center_lat": 40.75235852946209,
+      "center_lon": -73.97760051736813,
+      "avg_fare": 11.926161890840897
+    },
+    {
+      "cluster": 1,
+      "trip_count": 3168335,
+      "center_lat": 40.6413,
+      "center_lon": -73.7781,
+      "avg_fare": 40.323207569745755
+    },
+    {
+      "cluster": 5,
+      "trip_count": 2983392,
+      "center_lat": 40.755454034509526,
+      "center_lon": -73.97184179515546,
+      "avg_fare": 11.00865476872166
+    },
+    {
+      "cluster": 15,
+      "trip_count": 2715228,
+      "center_lat": 40.745615703212366,
+      "center_lon": -73.9893652590799,
+      "avg_fare": 12.676214758765061
+    },
+    {
+      "cluster": 4,
+      "trip_count": 2593880,
+      "center_lat": 40.74890034777089,
+      "center_lon": -73.9949995987259,
+      "avg_fare": 11.488686358688451
+    },
+    {
+      "cluster": 3,
+      "trip_count": 2575452,
+      "center_lat": 40.76596340375844,
+      "center_lon": -73.96139239208719,
+      "avg_fare": 12.375204084483098
+    },
+    {
+      "cluster": 14,
+      "trip_count": 2503185,
+      "center_lat": 40.75989177001407,
+      "center_lon": -73.97802186131223,
+      "avg_fare": 11.21136796158332
+    },
+    {
+      "cluster": 2,
+      "trip_count": 2153054,
+      "center_lat": 40.7769,
+      "center_lon": -73.874,
+      "avg_fare": 31.501293592567784
+    },
+    {
+      "cluster": 16,
+      "trip_count": 2144190,
+      "center_lat": 40.748994593483594,
+      "center_lon": -73.968,
+      "avg_fare": 11.750308563072977
+    },
+    {
+      "cluster": 11,
+      "trip_count": 772924,
+      "center_lat": 40.718262249724276,
+      "center_lon": -74.0054096654497,
+      "avg_fare": 16.289071289785447
+    },
+    {
+      "cluster": 6,
+      "trip_count": 413668,
+      "center_lat": 40.72431880495756,
+      "center_lon": -73.95111499795217,
+      "avg_fare": 11.232974981682977
+    },
+    {
+      "cluster": 13,
+      "trip_count": 322228,
+      "center_lat": 40.7366,
+      "center_lon": -74.0018,
+      "avg_fare": 11.02083102082131
+    },
+    {
+      "cluster": 18,
+      "trip_count": 248666,
+      "center_lat": 40.7267,
+      "center_lon": -73.9864,
+      "avg_fare": 11.159425390111668
+    }
+  ]
+}

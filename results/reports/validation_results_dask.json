@@ -1,0 +1,7 @@
+{
+  "train_size": 6494580,
+  "test_size": 1623645,
+  "silhouette_score": 0.7099719908602505,
+  "k": 20,
+  "total_rows": 81182260
+}

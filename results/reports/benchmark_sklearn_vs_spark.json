@@ -1,0 +1,104 @@
+{
+  "total_rows": 83878453,
+  "results": [
+    {
+      "tool": "scikit-learn",
+      "n_samples": 10000,
+      "k": 10,
+      "time_seconds": 0.06783390045166016,
+      "memory_mb": 3.125,
+      "throughput": 147418.91492921312,
+      "inertia": 290762.1726843312,
+      "status": "success"
+    },
+    {
+      "tool": "scikit-learn",
+      "n_samples": 50000,
+      "k": 10,
+      "time_seconds": 0.07553601264953613,
+      "memory_mb": 11.25,
+      "throughput": 661935.9196517908,
+      "inertia": 1368368.5803481163,
+      "status": "success"
+    },
+    {
+      "tool": "scikit-learn",
+      "n_samples": 100000,
+      "k": 10,
+      "time_seconds": 0.1393280029296875,
+      "memory_mb": 21.609375,
+      "throughput": 717730.8071405103,
+      "inertia": 2751405.407590812,
+      "status": "success"
+    },
+    {
+      "tool": "scikit-learn",
+      "n_samples": 200000,
+      "k": 10,
+      "time_seconds": 0.7113909721374512,
+      "memory_mb": 72.125,
+      "throughput": 281139.35632199317,
+      "inertia": 5382543.361183979,
+      "status": "success"
+    },
+    {
+      "tool": "Spark",
+      "n_samples": 10000,
+      "k": 10,
+      "time_seconds": 17.15877389907837,
+      "throughput": 582.7922238976014,
+      "wssse": 392180.4450756999,
+      "status": "success"
+    },
+    {
+      "tool": "Spark",
+      "n_samples": 50000,
+      "k": 10,
+      "time_seconds": 17.81452202796936,
+      "throughput": 2806.698934807144,
+      "wssse": 2630326.2525210124,
+      "status": "success"
+    },
+    {
+      "tool": "Spark",
+      "n_samples": 100000,
+      "k": 10,
+      "time_seconds": 18.05207109451294,
+      "throughput": 5539.530587733821,
+      "wssse": 2689370.2257408886,
+      "status": "success"
+    },
+    {
+      "tool": "Spark",
+      "n_samples": 500000,
+      "k": 10,
+      "time_seconds": 18.731297969818115,
+      "throughput": 26693.29166647468,
+      "wssse": 18600987.393586922,
+      "status": "success"
+    },
+    {
+      "tool": "Spark",
+      "n_samples": 1000000,
+      "k": 10,
+      "time_seconds": 19.344920873641968,
+      "throughput": 51693.15535234522,
+      "wssse": 36984596.41056071,
+      "status": "success"
+    },
+    {
+      "tool": "Spark",
+      "n_samples": 83878453,
+      "k": 10,
+      "time_seconds": 211.5466001033783,
+      "throughput": 396501.0686014826,
+      "wssse": 3573613259.6911535,
+      "status": "success"
+    }
+  ],
+  "summary": {
+    "sklearn_max_rows": 200000,
+    "spark_max_rows": 83878453,
+    "scalability_factor": 419.392265
+  }
+}

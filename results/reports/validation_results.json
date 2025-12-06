@@ -1,0 +1,12 @@
+{
+  "train_size": 22733256,
+  "test_size": 5682167,
+  "train_fraction": 0.8,
+  "test_fraction": 0.2,
+  "k": 20,
+  "train_wssse": 117.74137918333653,
+  "train_silhouette": 0.71840604269447,
+  "test_silhouette": 0.7185607519565036,
+  "silhouette_difference": 0.00015470926203364765,
+  "generalization_status": "good"
+}

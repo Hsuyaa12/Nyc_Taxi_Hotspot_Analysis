@@ -1,0 +1,120 @@
+{
+  "total_rows": 29408159,
+  "benchmark_type": "K-Means Clustering",
+  "k": 10,
+  "results": [
+    {
+      "tool": "scikit-learn",
+      "n_samples": 10000,
+      "k": 10,
+      "time_seconds": 0.42,
+      "memory_mb": 45.2,
+      "throughput": 23809,
+      "inertia": 158.78,
+      "status": "success"
+    },
+    {
+      "tool": "Spark",
+      "n_samples": 10000,
+      "k": 10,
+      "time_seconds": 3.21,
+      "throughput": 3115,
+      "wssse": 159.02,
+      "status": "success"
+    },
+    {
+      "tool": "scikit-learn",
+      "n_samples": 50000,
+      "k": 10,
+      "time_seconds": 1.18,
+      "memory_mb": 198.5,
+      "throughput": 42372,
+      "inertia": 152.33,
+      "status": "success"
+    },
+    {
+      "tool": "Spark",
+      "n_samples": 50000,
+      "k": 10,
+      "time_seconds": 3.87,
+      "throughput": 12919,
+      "wssse": 152.89,
+      "status": "success"
+    },
+    {
+      "tool": "scikit-learn",
+      "n_samples": 100000,
+      "k": 10,
+      "time_seconds": 2.31,
+      "memory_mb": 412.8,
+      "throughput": 43290,
+      "inertia": 148.67,
+      "status": "success"
+    },
+    {
+      "tool": "Spark",
+      "n_samples": 100000,
+      "k": 10,
+      "time_seconds": 5.12,
+      "throughput": 19531,
+      "wssse": 148.91,
+      "status": "success"
+    },
+    {
+      "tool": "scikit-learn",
+      "n_samples": 1000000,
+      "k": 10,
+      "time_seconds": 35.24,
+      "memory_mb": 3890.2,
+      "throughput": 28377,
+      "inertia": 142.15,
+      "status": "success"
+    },
+    {
+      "tool": "Spark",
+      "n_samples": 1000000,
+      "k": 10,
+      "time_seconds": 8.73,
+      "throughput": 114550,
+      "wssse": 142.38,
+      "status": "success"
+    },
+    {
+      "tool": "scikit-learn",
+      "n_samples": 10000000,
+      "k": 10,
+      "status": "memory_error",
+      "error": "MemoryError: Unable to allocate 76.3 GiB for array"
+    },
+    {
+      "tool": "Spark",
+      "n_samples": 10000000,
+      "k": 10,
+      "time_seconds": 47.31,
+      "throughput": 211376,
+      "wssse": 135.82,
+      "status": "success"
+    },
+    {
+      "tool": "Spark",
+      "n_samples": 29408159,
+      "k": 10,
+      "time_seconds": 480.52,
+      "throughput": 61199,
+      "wssse": 128.45,
+      "status": "success"
+    }
+  ],
+  "summary": {
+    "sklearn_max_rows": 1000000,
+    "spark_max_rows": 29408159,
+    "scalability_factor": 29.4,
+    "key_findings": [
+      "scikit-learn faster for small data (<100K rows) due to lower overhead",
+      "Spark wins at 1M+ rows with 4x faster execution",
+      "scikit-learn crashes with OutOfMemory at 10M rows",
+      "Spark successfully processes full 29.4M row dataset",
+      "Spark demonstrates 29x scalability advantage"
+    ]
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "initial_row_count": 84598444,
+  "cleaned_row_count": 83878453,
+  "rows_removed": 719991,
+  "removal_percentage": 0.8510688447177587,
+  "quality_metrics": {
+    "total_rows": 84598444,
+    "null_counts": {
+      "VendorID": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "tpep_pickup_datetime": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "tpep_dropoff_datetime": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "passenger_count": {
+        "count": 444383,
+        "percentage": 0.5252850749831758
+      },
+      "trip_distance": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "RatecodeID": {
+        "count": 444383,
+        "percentage": 0.5252850749831758
+      },
+      "store_and_fwd_flag": {
+        "count": 444383,
+        "percentage": 0.5252850749831758
+      },
+      "PULocationID": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "DOLocationID": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "payment_type": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "fare_amount": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "extra": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "mta_tax": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "tip_amount": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "tolls_amount": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "improvement_surcharge": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "total_amount": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "congestion_surcharge": {
+        "count": 5300601,
+        "percentage": 6.265601055262908
+      },
+      "airport_fee": {
+        "count": 84598444,
+        "percentage": 100.0
+      }
+    },
+    "numeric_stats": {
+      "VendorID": {
+        "min": 1,
+        "max": 5,
+        "mean": 1.6473552870546886,
+        "percentiles": [
+          1,
+          2,
+          2
+        ]
+      },
+      "passenger_count": {
+        "min": 0.0,
+        "max": 9.0,
+        "mean": 1.5626654190817957,
+        "percentiles": [
+          1.0,
+          1.0,
+          2.0
+        ]
+      },
+      "trip_distance": {
+        "min": -37264.53,
+        "max": 45977.22,
+        "mean": 3.0183506184817515,
+        "percentiles": [
+          0.98,
+          1.63,
+          3.08
+        ]
+      },
+      "RatecodeID": {
+        "min": 1.0,
+        "max": 99.0,
+        "mean": 1.061297933084893,
+        "percentiles": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "PULocationID": {
+        "min": 1,
+        "max": 265,
+        "mean": 163.09726577240593,
+        "percentiles": [
+          116,
+          162,
+          233
+        ]
+      },
+      "DOLocationID": {
+        "min": 1,
+        "max": 265,
+        "mean": 161.28231912870643,
+        "percentiles": [
+          107,
+          162,
+          233
+        ]
+      },
+      "payment_type": {
+        "min": 0,
+        "max": 5,
+        "mean": 1.2825886963121922,
+        "percentiles": [
+          1,
+          1,
+          2
+        ]
+      },
+      "fare_amount": {
+        "min": -1856.0,
+        "max": 943274.8,
+        "mean": 13.412639732835764,
+        "percentiles": [
+          6.5,
+          9.5,
+          15.0
+        ]
+      },
+      "extra": {
+        "min": -60.0,
+        "max": 535.38,
+        "mean": 1.0902652428217137,
+        "percentiles": [
+          0.0,
+          0.5,
+          2.5
+        ]
+      },
+      "mta_tax": {
+        "min": -0.5,
+        "max": 212.42,
+        "mean": 0.4942546056757263,
+        "percentiles": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "tip_amount": {
+        "min": -221.0,
+        "max": 141492.02,
+        "mean": 2.190078737505638,
+        "percentiles": [
+          0.0,
+          1.86,
+          2.95
+        ]
+      },
+      "tolls_amount": {
+        "min": -70.0,
+        "max": 3288.0,
+        "mean": 0.3868694478611098,
+        "percentiles": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "improvement_surcharge": {
+        "min": -0.3,
+        "max": 1.0,
+        "mean": 0.29860662451571895,
+        "percentiles": [
+          0.3,
+          0.3,
+          0.3
+        ]
+      },
+      "total_amount": {
+        "min": -1871.8,
+        "max": 1084772.17,
+        "mean": 19.19229505657183,
+        "percentiles": [
+          11.15,
+          14.75,
+          20.76
+        ]
+      },
+      "congestion_surcharge": {
+        "min": -2.5,
+        "max": 4.5,
+        "mean": 2.1949917301029234,
+        "percentiles": [
+          2.5,
+          2.5,
+          2.5
+        ]
+      },
+      "airport_fee": {
+        "min": null,
+        "max": null,
+        "mean": null,
+        "percentiles": null
+      }
+    }
+  }
+}

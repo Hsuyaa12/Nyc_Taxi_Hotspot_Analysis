@@ -1,0 +1,73 @@
+LocationID,Zone,Borough
+1,Newark Airport,EWR
+4,Alphabet City,Manhattan
+7,Arden Heights,Staten Island
+12,Arrochar/Fort Wadsworth,Staten Island
+13,Astoria,Queens
+24,Astoria Park,Queens
+41,Battery Park,Manhattan
+42,Battery Park City,Manhattan
+43,Bay Ridge,Brooklyn
+45,Bay Terrace/Fort Totten,Queens
+48,Bloomfield/Emerson Hill,Staten Island
+50,Bloomingdale,Manhattan
+68,Canarsie,Brooklyn
+74,Central Park,Manhattan
+75,Chinatown,Manhattan
+79,City Island,Bronx
+87,Corona,Queens
+88,Country Club,Bronx
+90,Crotona Park,Bronx
+100,East Harlem North,Manhattan
+107,East New York,Brooklyn
+113,Financial District North,Manhattan
+114,Financial District South,Manhattan
+116,Forest Hills,Queens
+120,Fort Greene,Brooklyn
+125,Gowanus,Brooklyn
+127,Gramercy,Manhattan
+128,Gravesend,Brooklyn
+132,JFK Airport,Queens
+137,Hamilton Heights,Manhattan
+138,LaGuardia Airport,Queens
+140,Garment District,Manhattan
+141,Governors Island/Ellis Island/Liberty Island,Manhattan
+142,Greenwich Village North,Manhattan
+143,Greenwich Village South,Manhattan
+144,Hamilton Heights,Manhattan
+148,Harlem,Manhattan
+151,Highbridge Park,Manhattan
+152,Highbridge,Bronx
+153,Hillcrest/Pomonok,Queens
+158,Hudson Sq,Manhattan
+161,Lenox Hill East,Manhattan
+162,Lenox Hill West,Manhattan
+163,Lincoln Square East,Manhattan
+164,Lincoln Square West,Manhattan
+166,JFK Airport,Queens
+170,Lower East Side,Manhattan
+186,Little Italy/NoLiTa,Manhattan
+209,Murray Hill,Manhattan
+211,Murray Hill-Queens,Queens
+224,Penn Station/Madison Sq West,Manhattan
+229,Penn Station/Madison Sq West,Manhattan
+230,Penn Station/Madison Sq West,Manhattan
+231,Perry West/Soho,Manhattan
+232,Prospect-Lefferts Gardens,Brooklyn
+233,Prospect Park,Brooklyn
+234,Park Slope,Brooklyn
+236,Midtown Center,Manhattan
+237,Midtown East,Manhattan
+238,Midtown North,Manhattan
+239,Midtown South,Manhattan
+240,Midtown West,Manhattan
+241,Morningside Heights,Manhattan
+242,Morris Heights,Bronx
+243,Morris Park,Bronx
+244,Mott Haven/Port Morris,Bronx
+246,Murray Hill,Manhattan
+249,Norwood,Bronx
+261,Upper East Side North,Manhattan
+262,Upper East Side South,Manhattan
+263,Upper West Side North,Manhattan
+
