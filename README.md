@@ -23,6 +23,12 @@ This project develops an end-to-end Big Data analytics pipeline to identify the 
 
 ---
 
+## System Architecture
+
+![NYC Taxi Hotspot Analysis Architecture](Architecture.png)
+
+---
+
 ## Project Structure
 
 ```
@@ -42,9 +48,6 @@ nyc-taxi-hotspot-analysis/
 |   |-- docker-compose.yml           # Kafka and Zookeeper containers
 |   |-- RUN_STREAMING_DEMO.sh        # Streaming demo script
 |   |-- README.md                    # Deployment instructions
-|
-|-- docs/                            # Documentation
-|   |-- EXECUTIVE_SUMMARY.md         # Project summary
 |
 |-- results/                         # Output files
 |   |-- figures/                     # Visualizations (PNG files)
@@ -87,6 +90,7 @@ nyc-taxi-hotspot-analysis/
 |-- main.py                          # Pipeline orchestrator
 |-- requirements.txt                 # Python dependencies
 |-- FINAL_PROJECT_REPORT.docx        # Final project report
+|-- Architecture.png                 # System architecture diagram
 |-- README.md                        # This file
 ```
 
@@ -154,7 +158,7 @@ python scripts/01_data_acquisition.py
 
 This will download the following files to `data/raw/`:
 - `yellow_tripdata_2019-01.parquet` through `yellow_tripdata_2019-12.parquet`
-- Total:(84.6 million trip records)
+- Total: 84.6 million trip records
 
 
 ### Option 2: Manual Download
