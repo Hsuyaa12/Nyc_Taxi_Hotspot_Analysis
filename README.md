@@ -9,7 +9,6 @@ This project develops an end-to-end Big Data analytics pipeline to identify the 
 - **Data Processed**: 81.2 million trip records (100% of cleaned dataset)
 - **Clusters Identified**: 20 geographic hotspots
 - **Silhouette Score**: 0.7100 (excellent cluster separation)
-- **Processing Time**: 6.3 minutes using Dask
 - **Data Retention**: 99.15% after cleaning
 
 ### Primary Findings
@@ -143,7 +142,7 @@ pip install -r requirements.txt
 
 ## Data Download Instructions
 
-> **Note**: The raw data files (~1.4 GB) are not included in this repository due to GitHub's file size limits. You must download the data before running the pipeline.
+> **Note**: The raw data files are not included in this repository due to GitHub's file size limits. You must download the data before running the pipeline.
 
 ### Option 1: Automatic Download (Recommended)
 
@@ -155,9 +154,8 @@ python scripts/01_data_acquisition.py
 
 This will download the following files to `data/raw/`:
 - `yellow_tripdata_2019-01.parquet` through `yellow_tripdata_2019-12.parquet`
-- Total: ~1.4 GB (84.6 million trip records)
+- Total:(84.6 million trip records)
 
-**Expected Download Time**: 5-10 minutes depending on internet speed.
 
 ### Option 2: Manual Download
 
@@ -220,7 +218,7 @@ python main.py --mode both
 
 The pipeline executes the following stages in sequence:
 
-| Stage | Script | Description | Duration |
+| Stage | Script | Description | Duration (tentative) |
 |-------|--------|-------------|----------|
 | 1 | 01_data_acquisition.py | Downloads 12 months of NYC taxi data | 10 min |
 | 2 | 02_data_cleaning.py | Removes nulls, outliers, duplicates | 5 min |
@@ -353,10 +351,3 @@ The dataset includes 84.6 million Yellow Taxi trip records from January to Decem
 This project uses publicly available data from the NYC Taxi and Limousine Commission under the NYC Open Data Terms of Use.
 
 ---
-
-## References
-
-1. Zaharia, M., et al. (2016). Apache Spark: A unified engine for big data processing. Communications of the ACM, 59(11), 56-65.
-2. Rocklin, M. (2015). Dask: Parallel computation with blocked algorithms and task scheduling. Proceedings of the 14th Python in Science Conference.
-3. Lloyd, S. P. (1982). Least squares quantization in PCM. IEEE Transactions on Information Theory, 28(2), 129-137.
-4. NYC Taxi and Limousine Commission. (2024). TLC Trip Record Data. https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
