@@ -141,6 +141,45 @@ pip install -r requirements.txt
 
 ---
 
+## Data Download Instructions
+
+> **Note**: The raw data files (~1.4 GB) are not included in this repository due to GitHub's file size limits. You must download the data before running the pipeline.
+
+### Option 1: Automatic Download (Recommended)
+
+Run the data acquisition script to automatically download all 12 months of 2019 NYC Yellow Taxi data:
+
+```bash
+python scripts/01_data_acquisition.py
+```
+
+This will download the following files to `data/raw/`:
+- `yellow_tripdata_2019-01.parquet` through `yellow_tripdata_2019-12.parquet`
+- Total: ~1.4 GB (84.6 million trip records)
+
+**Expected Download Time**: 5-10 minutes depending on internet speed.
+
+### Option 2: Manual Download
+
+If the script fails, you can manually download the data:
+
+1. Visit the [NYC TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) page
+2. Scroll to **2019** Yellow Taxi Trip Records
+3. Download all 12 monthly Parquet files (January - December 2019)
+4. Place the files in the `data/raw/` directory
+
+### Verify Data Download
+
+After downloading, verify the files are in place:
+
+```bash
+ls -la data/raw/
+```
+
+You should see 12 Parquet files named `yellow_tripdata_2019-XX.parquet`.
+
+---
+
 ## Running the Pipeline
 
 The pipeline supports three execution modes:
